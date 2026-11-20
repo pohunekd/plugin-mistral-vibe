@@ -1,0 +1,30 @@
+[2J[H  Launch browser
+  ┌────────────────────┐
+> │   Open browser     │
+  │   Failed to        │
+  │   start browser    │
+  │   sign-in: error   │
+  │   sending          │
+  │   request for      │
+  │   url              │
+  │   (https://conso   │
+  │   le.mistral.ai/   │
+  │   api/vibe/sign-   │
+  │   in): client      │
+  │   error            │
+  │   (Connect):       │
+  │   tunnel error:    │
+  │   unsuccessful     │
+  │   (via proxy       │
+  │   http://127.0.0   │
+  │   .1:18742)        │
+  └────────────────────┘
+  ┌────────────────────┐
+  │   Complete sign-in │
+  │   Waiting for authen
+  └────────────────────┘
+  ┌────────────────────┐
+  │   Finished setup   │
+  │   Vibe will start au
+  └────────────────────┘
+  r retry  m enter API k

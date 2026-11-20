@@ -1,0 +1,30 @@
+[2J[H> [[LONG]] go           
+─────────────────────── 
+  156: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 156. Line       
+  157: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 157. Line       
+  158: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 158. Line       
+  159: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 159. Line       
+  160: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 160.            
+
+                        
+── stub · accept edits ─
+>             
+
+
+────────────────────────
+…/scrup-w24 ⧉ ctx █ 100%

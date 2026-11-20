@@ -1,0 +1,25 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+> show the approval rule
+
+  Here is the rule:
+  id = "approval_dialog"
+  state = "blocked"
+  priority = 950
+  region = "bottom_non_empty_lines(16)"
+  visible_blocker = true
+  gates = { all = [
+      { contains = "permission for" },
+      { contains = "allow once" },
+      { contains = "4. deny" },
+      { contains = "navigate" },
+      { contains = "┌" },
+  ] }
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/idle-w100                                        ctx        0/30k

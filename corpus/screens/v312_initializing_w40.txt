@@ -1,0 +1,30 @@
+[2J[H
+ ⢠⢢    ⡔⢄⠔⡄
+ ⢸⢸⣀⡔⢉⠱⣃⡐⣔⡣
+ ⠈⠒⠒⠣⠤⠵⠤⠬⠮⠆
+
+Mistral Vibe v3.1.2
+stub[off]
+Type /help for more information
+
+
+
+                                        
+                                        
+                                        
+                                        
+                                        
+
+
+
+
+
+
+
+⠋  Initializing… 
+───────────── stub[off] · accept edits ─
+>  
+
+
+────────────────────────────────────────
+…cap/r-3.1.2/work/init-w40 ⧉    ctx   0%

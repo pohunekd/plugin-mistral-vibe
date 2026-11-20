@@ -1,0 +1,27 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  > how do I set my key, and what does approval look like?
+
+  Get a key at chat.mistral.ai and paste it into the Paste API key
+  box. A permission dialog looks like:
+  ┌──────────────────────────────────────────────────────────┐
+  │ Permission for the file_system.bash tool (touch *)       │
+  │ touch approved.txt                                       │
+  │                                                          │
+  │   1. Allow once                                          │
+  │   2. Allow for remainder of this session                 │
+  │   3. Always allow                                        │
+  │   4. Deny                                                │
+  │                                                          │
+  │ ↑↓/jk navigate  Enter select  Esc reject                 │
+  └──────────────────────────────────────────────────────────┘
+
+───────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w80                     ctx        0/30k

@@ -1,0 +1,232 @@
+# Detection manifest for the Mistral Vibe runtime (detection-only, v0.1.0).
+#
+# Frame geometry, anchored at the bottom of the visible screen (derived from
+# the S1 captures for 3.1.2 and 3.1.3 (kept beside the worktree), which
+# cover terminal widths 20 to 200 in both releases of the supported range):
+#
+#   transcript ...      anything, never inspected
+#   TOP BORDER          blockers: a box top (`┌─…┐` for the mid-turn dialogs,
+#                       `╭─…╮` for the full-screen trust and onboarding pages)
+#   title + option rows option labels wrap and truncate at narrow widths, so
+#                       only short width-stable prefixes are matched
+#   key-hint row        the `↑↓/jk …` hint every dialog draws above its bottom
+#                       border (trust pages say `↑↓/jk scroll`, the dialogs
+#                       `↑↓/jk navigate`; the onboarding cropped screens in
+#                       L4 keep the same hint row)
+#   BOTTOM BORDER       `└─…┘` for the dialogs, `╰─…╯` plus the `▁` status rule
+#                       for the full-screen pages
+#   footer              at most one status line up to the screen end
+#                       (the workdir path plus `ctx`), then `\z`
+#
+# A bare transcript quote of this file or of the README "Detection anchors"
+# section holds the same words but never the ordered box frame, so it matches
+# no rule and keeps the byte-activity fallback. A spinner line counts as
+# working evidence only as the live frame: the spinner line at its live
+# geometry (status word at column 3), the composer top rule right after it
+# and a composer that runs to the screen end. A quoted spinner line or a
+# `cat` of a generating screen is followed by more transcript or by a second
+# composer, and assistant text is indented two columns, so a quote has its
+# word at column 5 or later: it matches no rule. Residual: a spinner-shaped
+# line at column 0 that is the last transcript line above the live composer
+# still reads working.
+#
+# The small-terminal `Enlarge terminal to continue` page waits for a resize
+# rather than an answer. Its only text is that sentence, so the rule anchors
+# the whole visible screen (`\A ... \z`); a transcript quote never matches.
+# Not covered: the `exit` and `fatal_cwd` stream captures and a blank capture
+# hold no terminal frame and match no rule; they are corpus cases with
+# `expect` read from the screen (`unknown` when nothing is visible).
+#
+# Every onboarding tail after the closing border admits only blank lines and
+# lines that start with a space or tab, so no onboarding rule can reach a
+# composer (its rules start at column 0).
+#
+# Conventions (see README.md for the evidence behind each anchor):
+# - Every blocked and working rule is a single ordered multi-line `regex`
+#   over its frame; no bare `contains` bag is used for a dialog or page.
+# - Every blocked rule sets `visible_blocker`, so a visible blocker keeps
+#   winning over any `vibe` program-status record.
+# - The working rules carry no `overrides_program_status` by design (see
+#   README.md): the kit replay holds no record, so override rules would
+#   never match there and the corpus could not verify the working states.
+
+[program_status]
+app = "vibe"
+answer_probe = true
+
+[process]
+comm = ["^vibe-rs$"]
+
+[[rules]]
+id = "approval_dialog"
+state = "blocked"
+priority = 950
+region = "bottom_non_empty_lines(16)"
+visible_blocker = true
+# Mid-turn permission dialog: `┌` top border, the `│ Permission for` title,
+# the option rows in order (`1. Allow once` first, `4. Deny` last; labels
+# truncate at widths 20-60 so only the row numbers and heads are matched),
+# the `↑↓/jk navigate` key hint, the `└` bottom border, then at most the
+# footer line before the screen end.
+regex = '(?s)\x{250c}\x{2500}+\x{2510}.*?\x{2502} Permission for.*?\x{2502}   1\. Allow once.*?\x{2502}   4\. Deny.*?\x{2502} \x{2191}\x{2193}/jk navigate.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*)?\z'
+
+[[rules]]
+id = "question_dialog"
+state = "blocked"
+priority = 950
+region = "bottom_non_empty_lines(32)"
+visible_blocker = true
+# Mid-turn question dialog: same `┌…┘` frame as the approval dialog. The
+# region is the bottom 32 non-empty lines because a 4-option question wraps
+# to 18 rows at width 20.
+# The title row is per-question text, so only the frame plus the option
+# rows anchor it: the `1. ` row first, the numbered `Type your a` answer
+# row (the row after the last option, so `3.` for two options, `4.` for
+# three; truncated even at width 60), the `↑↓/jk navigate` hint, the `└`
+# bottom border, then at most the footer line before the screen end.
+regex = '(?s)\x{250c}\x{2500}+\x{2510}.*?\x{2502} +1\. .*?\x{2502} +[0-9]\. Type your a.*?\x{2191}\x{2193}/jk navigate.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*)?\z'
+
+[[rules]]
+id = "trust_folder_dialog"
+state = "blocked"
+priority = 940
+region = "whole_recent"
+visible_blocker = true
+# Startup trust page for a folder: `╭…╮` top, the `Malicious configs`
+# warning heading (wraps mid-word at width 20: `Malicio`/`us`), the centred
+# `Trust this fol` title, the `1. Trust fold` option row (truncated at
+# widths 20-30), the `↑↓/jk scroll` key hint, `╰…╯` and the `▁` status rule
+# at the bottom.
+regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Malicio.*?us.*?Trust this fol.*?1\. Trust fold.*?\x{2191}\x{2193}/jk scroll.*?\x{2570}\x{2500}+\x{256f}\s*\x{2581}+\s*\z'
+
+[[rules]]
+id = "trust_repo_dialog"
+state = "blocked"
+priority = 940
+region = "whole_recent"
+visible_blocker = true
+# Startup trust page for a repository: same `╭…╰…╯` + `▁` frame as the
+# folder page, with the `Trust folder o` title and the git-repository
+# detail rows between the title and the option row.
+regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Malicio.*?us.*?Trust folder o.*?git.*?reposit.*?\x{2570}\x{2500}+\x{256f}\s*\x{2581}+\s*\z'
+
+[[rules]]
+id = "onb_welcome"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding welcome page: `╭…╮` top, the `Welcome to Mistral` title,
+# the `╰…╯` bottom border, then at most the `Enter continue` key hint
+# and footer lines before the screen end (the L4 cropped screens end
+# at the `╰…╯` bottom border).
+regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Welcome to Mistral.*?\x{2570}\x{2500}+\x{256f}(?:\n(?:[ \t][^\n]*)?){0,3}\z'
+
+[[rules]]
+id = "onb_theme"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding theme step: the `Select your preferre` heading (truncated at
+# width 20) above the `╭… auto …╰` theme box, then the `╭… Preview …╰`
+# preview box, whose `╰…╯` bottom border is the last screen row.
+regex = '(?s)Select your preferre.*?\x{2570}\x{2500}+\x{256f}(?:\n[^\n]*){0,0}\z'
+
+[[rules]]
+id = "onb_signin"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding sign-in step: the `┌… Recommended ┐` box holding the `Launch
+# browser` row, the second `┌┐` box holding `Use an API key`, closed by the
+# `└…┘` bottom border, then at most the key-hint and footer lines.
+# The height-cropped L4 screens keep only the `Choose your sign in method`
+# heading and the `↑↓/jk navigate` hint (second alternative).
+regex = '(?s)\x{250c}\x{2500}+ Recommended \x{2500}+\x{2510}.*?Launch browser.*?\x{250c}.*?Use an API key.*?\x{2514}\x{2500}+\x{2518}(?:\n(?:[ \t][^\n]*)?){0,3}\z|(?s)Choose your sign in method.*?\x{2191}\x{2193}/jk navigate[^\n]*(?:\n(?:[ \t][^\n]*)?){0,2}\z'
+
+[[rules]]
+id = "onb_where"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding provider step: the `Where do you sign` heading above the
+# `┌… Recommended ┐` box holding `Mistral AI` and the second `┌┐` box
+# holding `Sign in to a`, closed by the `└…┘` bottom border, then at most
+# the key-hint and footer lines. The height-cropped screens keep only the
+# heading and the `↑↓/jk navigate` hint (second alternative).
+regex = '(?s)Where do you sign.*?\x{250c}\x{2500}+ Recommended \x{2500}+\x{2510}.*?Mistral AI.*?\x{250c}.*?Sign in to a.*?\x{2514}\x{2500}+\x{2518}(?:\n(?:[ \t][^\n]*)?){0,3}\z|(?s)Where do you sign in\? *\n.*?\x{2191}\x{2193}/jk navigate[^\n]*(?:\n(?:[ \t][^\n]*)?){0,2}\z'
+
+[[rules]]
+id = "onb_browser"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding browser step: the `Launch browser` heading, then the `Waiting
+# for au` status row and the `Finished setup` row each inside its own
+# `┌…┐` panel, the last panel's `└…┘` bottom border, then at most the `r
+# retry` key row and footer lines before the screen end.
+regex = '(?s)Launch browser.*?\x{250c}\x{2500}+\x{2510}.*?Waiting for au.*?\x{250c}\x{2500}+\x{2510}.*?Finished setup.*?\x{2514}\x{2500}+\x{2518}(?:\n(?:[ \t][^\n]*)?){0,5}\z'
+
+[[rules]]
+id = "onb_apikey"
+state = "blocked"
+priority = 930
+region = "whole_recent"
+visible_blocker = true
+# Onboarding API-key step: the `chat.mistr` help URL above the contiguous
+# `┌─ Paste API key …┐` / `│ …` / `└…┘` input box, then at most the `Learn
+# more` and `https://github.com` footer lines before the end.
+regex = '(?s)chat\.mistr.*?\x{250c}\x{2500} Paste API key[ \x{2500}]*\x{2510}\n[^\n]*\x{2502}[^\n]*\n[ \t]*\x{2514}\x{2500}+\x{2518}(?:\n(?:[ \t][^\n]*)?){0,8}\z'
+
+[[rules]]
+id = "working_spinner"
+state = "working"
+priority = 700
+region = "bottom_non_empty_lines(16)"
+# The live spinner field is two columns (`⠋  `, ` ⣄ ` or `⠉⠁ `) and the status
+# word starts at column 3. Then the composer top rule on the next line and a
+# composer that runs to the screen end (`>` row, optional wrapped rows, closing
+# rule, at most the footer). An indented quote has its word at column 5 or
+# later; a quote followed by more transcript or a second composer never reaches
+# `\z`. An indent-0 spinner-shaped last transcript line still matches.
+regex = '(?m)^(?:[\x{2800}-\x{28FF}]{2}|[\x{2800}-\x{28FF}] | [\x{2800}-\x{28FF}]) (?:Generating|Thinking|Initializing|Retrying|Running command|Loading skills|User input required)…[^\n]*\n\x{2500}[^\n]*\n>[^\n]*(?:\n[^\n\x{2500}>][^\n]*)*\n\x{2500}+(?:\n[^\n]*)?\z'
+
+[[rules]]
+id = "working_compaction"
+state = "working"
+priority = 690
+region = "whole_recent"
+# The transcript line's shape: a spinner cell (`■` running, `□` queued)
+# at the start of the line, then `Compacting` as the first word, its wrapped
+# continuation, only blank or spinner lines, and then the idle composer
+# frame up to the `ctx` footer at the screen end. A quote of the line with
+# other text before the composer matches no rule; the finished
+# `Compacted`/`failed` lines never match.
+regex = '(?m)^[ \t]*[\x{25a0}\x{25a1}] Compacting[^\n]*\n(?:(?:conversation|history\.\.\.|conversation history\.\.\.)[ \t]*\n){0,2}(?:[ \t]*\n|[ \t]*[\x{2800}-\x{28ff}][^\n]*\n){0,20}?\x{2500}+ [^\x{2500}\n]* \x{2500}+\n>[^\n]*\n\n*\x{2500}+\n[^\n]*ctx[^\n]*(?:\n[^\n]*)?\z'
+
+[[rules]]
+id = "enlarge_terminal"
+state = "blocked"
+priority = 920
+region = "whole_recent"
+visible_blocker = true
+# Small-terminal wait page: the whole visible screen is the single row
+# `Enlarge terminal to continue`. The user must resize the terminal rather
+# than answer, so it reads blocked (visible blocker).
+regex = '\A\s*Enlarge terminal to continue\s*\z'
+
+[[rules]]
+id = "idle_composer"
+state = "idle"
+priority = 300
+region = "bottom_non_empty_lines(16)"
+# The composer frame is agent-independent: the full-width `─` top rule with
+# the agent label between the runs, the `> ` composer line, the closing
+# rule, and a footer holding `ctx`. No agent name is matched, so every
+# builtin agent (`ask`, `accept-edits`, `smart-approve`, `auto-approve`)
+# reads idle from the same rule.
+regex = '(?s)\x{2500}+ [^\x{2500}\n]* \x{2500}+\n>.*?\n\x{2500}+\n[^\n]*ctx[^\n]*\z'

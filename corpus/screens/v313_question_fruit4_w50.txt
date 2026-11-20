@@ -1,0 +1,30 @@
+[2J[H
+⢔⡢⡀    ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+
+
+> [[ASK4]] go
+──────────────────────────────────────────────────
+
+■ Asking Pick the fruit the stub should name?
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+
+⠘⠉ User input required… (0s Esc/Ctrl+C to interrup
+┌────────────────────────────────────────────────┐
+│ Pick the fruit the stub should name?           │
+│                                                │
+│   1. Apple - fruit option                      │
+│   2. Pear - fruit option                       │
+│   3. Plum - fruit option                       │
+│   4. Fig - fruit option                        │
+│   5. Type your answer...                       │
+│                                                │
+│ ↑↓/jk navigate  Enter select  Esc cancel       │
+└────────────────────────────────────────────────┘
+/work/r-new/fruit4-w50           ctx ▏      15/30k

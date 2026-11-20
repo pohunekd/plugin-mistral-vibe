@@ -1,0 +1,113 @@
+[2J[H
+⢔⡢⡀    ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  Transcript mentions: Which color / Type your answer / navigate
+
+> show me the question detection rule
+
+  From package/detect.toml:
+  [[rules]]
+  id = "approval_dialog"
+  state = "blocked"
+  priority = 950
+  region = "bottom_non_empty_lines(16)"
+  visible_blocker = true
+  # Mid-turn permission dialog: `┌` top border, the `│ Permission for` title,
+  # the option rows in order (`1. Allow once` first, `4. Deny` last; labels
+  # truncate at widths 20-60 so only the row numbers and heads are matched),
+  # the `↑↓/jk navigate` key hint, the `└` bottom border, then at most the
+  # footer line before the screen end.
+  regex = '(?s)\x{250c}\x{2500}+\x{2510}.*?\x{2502} Permission for.*?\x{2502}   1\. Allow once.*?\x{2502}   4\. Deny.*?\x{2502} \x{2191}\x{2193}/jk navigate.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*)?\z'
+
+  From README.md Detection anchors:
+  ## Detection anchors
+  
+  All anchors are short literals shared by every captured width (20-200
+  columns); narrow screens slice every dialog line, so no anchor depends on
+  a full-length word.
+  
+  - Approval: `permission for` + `allow once` + `4. deny` + `navigate` + the
+    dialog frame `┌` (bottom 16 non-empty lines, blocked, visible blocker).
+  - Question: the `user input` status line above the dialog + `type your` +
+    `navigate` + `┌` (bottom 16, blocked). The `asking` transcript line above
+    the dialog falls outside the bottom region at 20 columns, so it is not
+    an anchor.
+  - Trust: folder `trust this fol` + `1. trust` + `↑↓/jk` + `╭`; repository
+    `trust folder o` + (`1. trust` or `git`) + `╭` (whole screen, blocked).
+    At 20 columns the repository dialog shows no option row, so the `git`
+    remote line stands in for the option prefix there.
+  - Onboarding (one rule per wizard step, whole screen, blocked):
+    welcome `welcome to mistral` + `enter continue` + `╭`; theme
+    `select your preferre` + `preview` + `╭`; sign-in `choose your sign i` +
+    `launch browser` + `use an api key` + `┌`; provider `where do you sign` +
+    `mistral ai` + `sign in to a` + `┌`; browser `launch browser` +
+    `open browser` + `waiting for au` + `┌`; API key `paste api key` +
+    `chat.mistr` + `┌`. The frame corners disambiguate quoted text: a bare
+    transcript quote without the box never matches.
+  - Working: a spinner-link line (braille spinner + a status label +
+    `…`, bottom 16) and the `compacting` transcript line without a terminal
+    `completed`/`failed` tail (whole screen).
+  - Idle: the composer title `accept edits` + the `ctx` footer without a
+    spinner link (bottom 16). The spinner exclusion answers L1:
+    `initializing…` shows the full composer box above its status line and
+    must not read as idle. `exit` and `fatal_cwd` captures are stream text,
+    not visible screens, so they are not corpus cases; the failed-compaction
+    tail (`✕ Context compaction failed`) reads idle.
+
+  From a raw corpus approval screen:
+  ⡠⣒⠄  ⡔⢄⠔⡄   Mistral Vibe v3.1.3
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣   stub[off]
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆   Type /help for more information
+  
+  
+  
+  > [[BASH]] go
+  ────────────────────────────────────────────────────────────────────────────────────────────────────
+  
+  □ Running touch approved.txt
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+  
+  ⠙  Running command… (0s Esc/Ctrl+C to interrupt)
+  ┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Permission for the file_system.bash tool (touch *)                                               │
+  │ touch approved.txt                                                                               │
+  │                                                                                                  │
+  │   1. Allow once                                                                                  │
+  │   2. Allow for remainder of this session                                                         │
+  │   3. Always allow                                                                                │
+  │   4. Deny                                                                                        │
+  │                                                                                                  │
+  │ ↑↓/jk navigate  Enter select  Esc reject                                                         │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘
+  /work/r-new/appr-w100                                       ctx ▏      15/30k
+
+
+> [[SLOW]] go
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+
+
+
+
+
+
+
+⠋  Generating… (0s Esc/Ctrl+C to interrupt)
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>            
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/r-new/gen-w100                                         ctx        0/30k

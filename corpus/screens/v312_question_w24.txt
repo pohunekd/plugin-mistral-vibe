@@ -1,0 +1,30 @@
+[2J[H
+ ⢠⢢    ⡔⢄⠔⡄
+ ⢸⢸⣀⡔⢉⠱⣃⡐⣔⡣
+ ⠈⠒⠒⠣⠤⠵⠤⠬⠮⠆
+
+Mistral Vibe v3.1.2
+stub[off]
+Type /help for more
+information
+
+
+                        
+> [[ASK]] go            
+────────────────────────
+                        
+■ Asking Which color    
+         should the stub
+         use?
+
+
+
+
+
+⣀⡀ User input required… 
+── stub · accept edits ─
+>           
+
+
+────────────────────────
+…/ask-w24 ⧉     ctx ▁ 0%

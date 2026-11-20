@@ -1,0 +1,30 @@
+[2J[Hstub[off]           
+Type /help for more 
+information         
+                    
+                    
+                    
+> [[BASH]] go       
+─────────────────── 
+                    
+□ Running touch     
+          approved. 
+          txt       
+                    
+⠘⠉ Running command… 
+┌──────────────────┐
+│ Permission for   │
+│ the              │
+│ file_system.bash │
+│ tool (touch *)   │
+│ touch            │
+│ approved.txt     │
+│                  │
+│   1. Allow once  │
+│   2. Allow for r │
+│   3. Always allo │
+│   4. Deny        │
+│                  │
+│ ↑↓/jk navigate   │
+└──────────────────┘
+…/appr-w20 ⧉   ctx ▁

@@ -1,0 +1,28 @@
+[2J[H
+                        
+
+
+    ⡠⣒⠄  ⡔⢄⠔⡄           
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣           
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆           
+  Welcome to Mistral Vib
+  Choose your sign in me
+                        
+                        
+  ┌────── Recommended ─┐
+> │ Launch browser     │
+  │ Sign in to Mistral A
+  └────────────────────┘
+                        
+  or                    
+                        
+  ┌────────────────────┐
+  │ Use an API key     │
+  │ Already have a key? 
+  └────────────────────┘
+                        
+                        
+  ↑↓/jk navigate  Ente  
+                        
+                        
+                        

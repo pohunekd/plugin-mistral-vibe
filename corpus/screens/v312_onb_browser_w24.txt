@@ -1,0 +1,30 @@
+[2J[H    ⡠⣒⠄  ⡔⢄⠔⡄
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣           
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆
+  Launch browser
+  Your browser should op
+                        
+  ┌────────────────────┐
+> │   Open browser     │
+  │   Failed to        │
+  │   start browser    │
+  │   sign-in: error   │
+  │   sending          │
+  │   request for      │
+  │   url              │
+  │   (https://conso   │
+  │   le.mistral.ai/   │
+  │   api/vibe/sign-   │
+  │   in): client      │
+  │   error            │
+  │   (Connect):…      │
+  └────────────────────┘
+  ┌────────────────────┐
+  │   Complete sign-in │
+  │   Waiting for authen
+  └────────────────────┘
+  ┌────────────────────┐
+  │   Finished setup   │
+  │   Vibe will start au
+  └────────────────────┘
+  r retry  m enter API k

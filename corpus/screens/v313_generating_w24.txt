@@ -1,0 +1,30 @@
+[2J[H
+ ⢠⢢    ⡠⡀⡠⡀
+ ⢸⢸⣀⡔⢉⢑⠇⠨⡠⢇
+ ⠈⠒⠒⠣⠤⠵⠭⠭⠯⠇
+
+Mistral Vibe v3.1.3
+stub[off]
+Type /help for more
+information
+
+
+                        
+> [[SLOW]] go           
+────────────────────────
+                        
+                        
+
+
+
+
+
+
+
+⠋  Generating… (0s Esc/C
+── stub · accept edits ─
+>             
+
+
+────────────────────────
+…/gen-w24 ⧉     ctx   0%

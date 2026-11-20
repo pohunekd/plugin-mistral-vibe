@@ -1,0 +1,30 @@
+[2J[Hinformation         
+                    
+                    
+                    
+> [[ASK3]] go      ▂
+─────────────────── 
+                    
+■ Asking Pick the   
+         fruit the  
+         stub       
+         should     
+         name?      
+                    
+ ⠸ User input requir
+┌──────────────────┐
+│ Pick the fruit   │
+│ the stub should  │
+│ name?            │
+│                  │
+│   1. Apple -     │
+│ fruit option     │
+│   2. Pear -      │
+│ fruit option     │
+│   3. Plum -      │
+│ fruit option     │
+│   4. Type your a │
+│                  │
+│ ↑↓/jk navigate   │
+└──────────────────┘
+…/fruit3-w20 ⧉ ctx ▁

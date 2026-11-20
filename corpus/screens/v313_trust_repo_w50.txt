@@ -1,0 +1,30 @@
+[2J[H▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+╭────────────────────────────────────────────────╮
+│                                                │
+│        Malicious configs can modify AI         │
+│         behavior, exfiltrate data, run         │
+│       destructive commands, or silently        │
+│                alter your code.                │
+│                                                │
+│        Detected in repository context:         │
+│                  • AGENTS.md                   │
+│                                                │
+│     ──────────────────────────────────────     │
+│          Trust folder or repository?           │
+│     ──────────────────────────────────────     │
+│                                                │
+│     /work/r-new/tru     │
+│                  str-w50/sub                   │
+│               ↳ git repository:                │
+│     /work/r-new/tru     │
+│                    str-w50                     │
+│                                                │
+│      1. Trust full repo    2. Trust folder    3.
+│                                                │
+│     ↑↓/jk scroll  ←→ navigate  Enter select    │
+│                                                │
+│           Setting will be saved in:            │
+│     /work/r-new/home/.vi     │
+│                                                │
+╰────────────────────────────────────────────────╯
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

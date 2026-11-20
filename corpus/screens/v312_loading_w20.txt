@@ -1,0 +1,30 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇
+
+Mistral Vibe v3.1.2
+stub[off]
+Type /help for more
+information
+
+
+                    
+                    
+                    
+                    
+                    
+
+
+
+                    
+                    
+                    
+⠋  Loading skills…  
+                    
+───── accept edits ─
+>       
+
+
+────────────────────
+…/load-w20 ⧉   ctx  

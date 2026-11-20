@@ -1,0 +1,28 @@
+[2J[H
+                                                                  Select your preferred theme
+
+
+                                                                         solarized-dark        
+                                                                          textual-dark         
+                                                                          tokyo-night          
+                                                                 ╭────────────────────────────╮
+                                                 ↑↓/jk navigate  │            auto            │  Enter select
+                                                                 ╰────────────────────────────╯
+                                                                           ansi-light          
+                                                                         atom-one-light                     
+                                                                        catppuccin-latte                    
+                                                                                                            
+                                                                                                            
+                                             ╭───────────────────────────── Preview ──────────────────────────────╮
+                                             │                                                                    │
+                                             │   Heading                                                          │
+                                             │                                                                    │
+                                             │   Bold, italic, and inline code.                                   │
+                                             │                                                                  ▄ │
+                                             │   • Bullet point                                                   │
+                                             │   • Another bullet point                                           │
+                                             │                                                                    │
+                                             │    1. First item                                                   │
+                                             │    2. Second item                                                  │
+                                             │                                                                    │
+                                             ╰────────────────────────────────────────────────────────────────────╯

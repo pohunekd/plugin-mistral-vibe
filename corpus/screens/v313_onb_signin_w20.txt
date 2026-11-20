@@ -1,0 +1,28 @@
+[2J[H
+                    
+
+
+    ⡠⣒⠄  ⡔⢄⠔⡄       
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣       
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆       
+  Welcome to Mistral
+  Choose your sign i
+                    
+                    
+  ┌── Recommended ─┐
+> │ Launch browser │
+  │ Sign in to Mistr
+  └────────────────┘
+                    
+  or                
+                    
+  ┌────────────────┐
+  │ Use an API key │
+  │ Already have a k
+  └────────────────┘
+                    
+                    
+  ↑↓/jk navigate    
+                    
+                    
+                    

@@ -1,0 +1,25 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  > show the browser-step rule
+
+  From package/detect.toml:
+  [[rules]]
+  id = "onb_browser"
+  state = "blocked"
+  priority = 930
+  region = "whole_recent"
+  visible_blocker = true
+  # Onboarding browser step: the `Launch browser` heading and the `Waiting
+  # for au` status row inside one of the `┌…┘` boxes; at most the footer
+  # follows before the screen end.
+  regex = '(?s)Launch browser.*?Waiting for au.*?\z'
+
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w100                                        ctx        0/30k

@@ -1,0 +1,30 @@
+[2J[H
+  ⡠⣒⠄  ⡔⢄⠔⡄
+ ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣
+  ⠉⠒⠣⠤⠵⠤⠬⠮⠆
+
+Mistral Vibe v3.1.3
+stub[off]
+Type /help for more information
+
+
+
+> [[RETRY]] 1795097953892545893         
+────────────────────────────────────────
+                                        
+                                        
+                                        
+
+
+                                
+
+
+
+
+⠰⠄ Retrying… (0s Esc/Ctrl+C to interrupt
+───────────── stub[off] · accept edits ─
+>                              
+
+
+────────────────────────────────────────
+…cap/r-3.1.3/work/retry-w40 ⧉   ctx   0%

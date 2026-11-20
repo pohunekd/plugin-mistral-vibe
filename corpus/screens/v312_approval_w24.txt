@@ -1,0 +1,30 @@
+[2J[H ⠈⠒⠒⠣⠤⠵⠭⠭⠯⠇             
+                        
+Mistral Vibe v3.1.2    ▅
+stub[off]               
+Type /help for more     
+information             
+                        
+                        
+                        
+> [[BASH]] go           
+─────────────────────── 
+                        
+■ Running touch         
+          approved.txt  
+                        
+⣄  Running command… (1s 
+┌──────────────────────┐
+│ Permission for the   │
+│ file_system.bash     │
+│ tool (touch *)       │
+│ touch approved.txt   │
+│                      │
+│   1. Allow once      │
+│   2. Allow for remai │
+│   3. Always allow    │
+│   4. Deny            │
+│                      │
+│ ↑↓/jk navigate  Ente │
+└──────────────────────┘
+…/appr-w24 ⧉    ctx ▁ 0%

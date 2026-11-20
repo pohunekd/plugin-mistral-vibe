@@ -1,0 +1,30 @@
+[2J[H▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+╭────────────────────────────╮
+│                            │
+│     Malicious configs      │
+│       can modify AI        │
+│         behavior,          │
+│     exfiltrate data,       │
+│      run destructive       │
+│       commands, or         │
+│      silently alter        │
+│        your code.          │
+│                      ▅     │
+│     Detected in repos tory c
+│     ──────────────────     │
+│     Trust folder or reposito
+│     ──────────────────     │
+│                            │
+│     /work/r-new/work/r     │
+│     -new/work/r/work/t     │
+│       rustr-w30/sub        │
+│     ↳ git repository:      │
+│     /work/r-new/work/r     │
+│     -new/work/r/work/t     │
+│         rustr-w30          │
+│                            │
+│      1. Trust full repo    2
+│                            │
+│                            │
+╰────────────────────────────╯
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

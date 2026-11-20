@@ -1,0 +1,40 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  > show the onboarding rules
+
+  From package/detect.toml:
+  [[rules]]
+  state = "blocked"
+  regex = '(?s)\x{250c}\x{2500}+\x{2510}.*?\x{2502} Permission for.*?\x{2502}   1\. Allow once.*?\x{2502}   4\. Deny.*?\x{2502} \x{2191}\x{2193}/jk navigate.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*)?\z'
+  state = "blocked"
+  regex = '(?s)\x{250c}\x{2500}+\x{2510}.*?\x{2502} +1\. .*?\x{2502} +3\. Type your a.*?\x{2191}\x{2193}/jk navigate.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*)?\z'
+  state = "blocked"
+  regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Malicio.*?us.*?Trust this fol.*?1\. Trust fold.*?\x{2191}\x{2193}/jk scroll.*?\x{2570}\x{2500}+\x{256f}\s*\x{2581}+\s*\z'
+  state = "blocked"
+  regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Malicio.*?us.*?Trust folder o.*?git.*?reposit.*?\x{2570}\x{2500}+\x{256f}\s*\x{2581}+\s*\z'
+  id = "onb_welcome"
+  state = "blocked"
+  regex = '(?s)\x{256d}\x{2500}+\x{256e}.*?Welcome to Mistral.*?\x{2570}\x{2500}+\x{256f}(?:\n[^\n]*){0,3}\z'
+  id = "onb_theme"
+  state = "blocked"
+  regex = '(?s)Select your preferre.*?\x{2570}\x{2500}+\x{256f}(?:\n[^\n]*){0,0}\z'
+  id = "onb_signin"
+  state = "blocked"
+  regex = '(?s)Launch browser.*?Use an API key.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*){0,3}\z|(?s)Choose your sign in method.*?\x{2191}\x{2193}/jk navigate[^\n]*(?:\n[^\n]*){0,2}\z'
+  id = "onb_where"
+  state = "blocked"
+  regex = '(?s)Where do you sign.*?Mistral AI.*?Sign in to a.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*){0,3}\z|(?s)Where do you sign in\? *\n.*?\x{2191}\x{2193}/jk navigate[^\n]*(?:\n[^\n]*){0,2}\z'
+  id = "onb_browser"
+  state = "blocked"
+  regex = '(?s)Launch browser.*?Waiting for au.*?Finished setup.*?\x{2514}\x{2500}+\x{2518}(?:\n[^\n]*){0,5}\z'
+  id = "onb_apikey"
+
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w100                                        ctx        0/30k

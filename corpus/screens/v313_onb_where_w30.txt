@@ -1,0 +1,28 @@
+[2J[H
+                            
+
+
+    ⡠⣒⠄  ⡔⢄⠔⡄                 
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣                 
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆                 
+  Launch browser              
+  Where do you sign in?       
+                              
+                              
+  ┌──────────── Recommended ─┐
+> │ Mistral AI               │
+  │ Sign in to Mistral AI Stud
+  └──────────────────────────┘
+                              
+  or                          
+                              
+  ┌──────────────────────────┐
+  │ Other                    │
+  │ Sign in to a Mistral-compa
+  └──────────────────────────┘
+                              
+                              
+  ↑↓/jk navigate  Enter sele  
+                              
+                              
+                              

@@ -1,0 +1,3056 @@
+# One case per captured screen (M1). Expect is read from the visible screen,
+# never from the rules. A capture whose rendered screen is blank has no frame
+# to assert (the kit reads the byte-activity fallback there), so it is not a
+# case. Screen names are flat `v312_`/`v313_`/`h3_`/`neg_` prefixes because
+# the kit refuses `/` in `screen` names (`detect_check.rs:132-140`); the
+# release prefix keeps 3.1.2 and 3.1.3 apart.
+
+[[case]]
+screen = "v312_approval_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_approval_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_compaction_failed_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_failed_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v312_compaction_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_compaction_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_generating_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_idle_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v312_idle_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v312_initializing_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_initializing_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_loading_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_onb_apikey_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_apikey_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_browser_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_signin_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_signin_w80_r12.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_signin_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_w20_r6.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_w40_r8.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_w80_r12.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_w80_r5.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_small_where_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_theme_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_welcome_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_onb_where_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_question_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_question_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_retrying_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_retrying_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_running_command_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_up_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_up_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_scrolled_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v312_scrolled_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v312_thinking_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v312_trust_folder_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_folder_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v312_trust_repo_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_approval_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_compaction_failed_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_failed_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v313_compaction_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_compaction_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_generating_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_idle_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v313_idle_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v313_initializing_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_initializing_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_loading_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_onb_apikey_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_apikey_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_browser_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_signin_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_signin_w80_r12.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_signin_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_theme_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_w20_r6.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_w40_r8.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_w80_r12.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_w80_r5.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_small_where_w80_r8.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_theme_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_welcome_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_onb_where_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_question_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_retrying_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_retrying_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_running_command_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_scrolled_up_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_up_w80.txt"
+width = 80
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w100.txt"
+width = 100
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w120.txt"
+width = 120
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w160.txt"
+width = 160
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w20.txt"
+width = 20
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w200.txt"
+width = 200
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w24.txt"
+width = 24
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w30.txt"
+width = 30
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w40.txt"
+width = 40
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w50.txt"
+width = 50
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w60.txt"
+width = 60
+expect = "idle"
+
+[[case]]
+screen = "v313_scrolled_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w100.txt"
+width = 100
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w120.txt"
+width = 120
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w160.txt"
+width = 160
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w20.txt"
+width = 20
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w200.txt"
+width = 200
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w24.txt"
+width = 24
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w30.txt"
+width = 30
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w40.txt"
+width = 40
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w50.txt"
+width = 50
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w60.txt"
+width = 60
+expect = "working"
+
+[[case]]
+screen = "v313_thinking_w80.txt"
+width = 80
+expect = "working"
+
+[[case]]
+screen = "v313_trust_folder_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_folder_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w100.txt"
+width = 100
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w120.txt"
+width = 120
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w160.txt"
+width = 160
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w20.txt"
+width = 20
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w200.txt"
+width = 200
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w24.txt"
+width = 24
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w30.txt"
+width = 30
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w40.txt"
+width = 40
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w50.txt"
+width = 50
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w60.txt"
+width = 60
+expect = "blocked"
+
+[[case]]
+screen = "v313_trust_repo_w80.txt"
+width = 80
+expect = "blocked"
+
+[[case]]
+screen = "h3_v312_accept-edits_w100.txt"
+width = 100
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v312_accept-edits_w20.txt"
+width = 20
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v312_accept-edits_w60.txt"
+width = 60
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v312_ask_w100.txt"
+width = 100
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v312_ask_w20.txt"
+width = 20
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v312_ask_w60.txt"
+width = 60
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v312_auto-approve_w100.txt"
+width = 100
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v312_auto-approve_w20.txt"
+width = 20
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v312_auto-approve_w60.txt"
+width = 60
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v312_smart-approve_w100.txt"
+width = 100
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "h3_v312_smart-approve_w20.txt"
+width = 20
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "h3_v312_smart-approve_w60.txt"
+width = 60
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "h3_v313_accept-edits_w100.txt"
+width = 100
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v313_accept-edits_w20.txt"
+width = 20
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v313_accept-edits_w60.txt"
+width = 60
+expect = "idle"
+# agent=accept-edits
+
+[[case]]
+screen = "h3_v313_ask_w100.txt"
+width = 100
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v313_ask_w20.txt"
+width = 20
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v313_ask_w60.txt"
+width = 60
+expect = "idle"
+# agent=ask
+
+[[case]]
+screen = "h3_v313_auto-approve_w100.txt"
+width = 100
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v313_auto-approve_w20.txt"
+width = 20
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v313_auto-approve_w60.txt"
+width = 60
+expect = "idle"
+# agent=auto-approve
+
+[[case]]
+screen = "h3_v313_smart-approve_w100.txt"
+width = 100
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "h3_v313_smart-approve_w20.txt"
+width = 20
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "h3_v313_smart-approve_w60.txt"
+width = 60
+expect = "idle"
+# agent=smart-approve
+
+[[case]]
+screen = "neg_m1_approval_working.txt"
+width = 100
+expect = "working"
+# M1 real-quote negative (working)
+
+[[case]]
+screen = "neg_m1_onboarding_working.txt"
+width = 100
+expect = "working"
+# M1 real-quote negative (working)
+
+[[case]]
+screen = "neg_m1_question_idle.txt"
+width = 100
+expect = "idle"
+# M1 real-quote negative (idle)
+
+[[case]]
+screen = "neg_m1_question_working.txt"
+width = 100
+expect = "working"
+# M1 real-quote negative (working)
+
+[[case]]
+screen = "neg_m1_trust_idle.txt"
+width = 100
+expect = "idle"
+# M1 real-quote negative (idle)
+
+[[case]]
+screen = "neg_adv_idle_auto_approve.txt"
+width = 100
+expect = "idle"
+# H1 real-quote negative
+
+[[case]]
+screen = "neg_adv_idle_mentions_compacting.txt"
+width = 100
+expect = "idle"
+# H1 real-quote negative
+
+[[case]]
+screen = "neg_adv_idle_quotes_detect_toml.txt"
+width = 100
+expect = "idle"
+# H1 real-quote negative
+
+[[case]]
+screen = "neg_adv_idle_quotes_readme.txt"
+width = 100
+expect = "idle"
+# H1 real-quote negative
+
+[[case]]
+screen = "neg_adv_idle_quotes_trust_rule.txt"
+width = 100
+expect = "idle"
+# H1 real-quote negative
+
+
+[[case]]
+screen = "neg_adv2_prose_browser.txt"
+width = 100
+expect = "idle"
+# N1 adversarial prose: transcript answers "Waiting for authentication" with no panel frame
+
+[[case]]
+screen = "neg_adv2_readme_onboarding.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: README onboarding anchors with no wizard frame
+
+[[case]]
+screen = "neg_adv2_detect_toml_onb_browser.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: the shipped onb_browser rule text with no wizard frame
+
+[[case]]
+screen = "neg_adv2_cat_welcome_screen.txt"
+width = 100
+expect = "idle"
+# N1 cat-quote: welcome box above the composer, no bottom-anchored page
+
+[[case]]
+screen = "neg_adv2_apikey_hint_plus_approval_quote.txt"
+width = 100
+expect = "idle"
+# N1 mixed quote: apikey hint plus a quoted approval box, no apikey input box
+
+[[case]]
+screen = "neg_adv2_readme_working.txt"
+width = 100
+expect = "idle"
+# L2 shipped-text quote: README working anchors with no spinner row or composer-adjacent Compacting line
+
+[[case]]
+screen = "neg_r2_quote_approval.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: ordered approval box as transcript text above the composer
+
+[[case]]
+screen = "neg_r2_quote_question.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: ordered question box as transcript text above the composer
+
+[[case]]
+screen = "neg_r2_quote_trust.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: trust page rows as transcript text above the composer
+
+[[case]]
+screen = "neg_r2_quote_detect_onb.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: the shipped onb_* rules with no wizard frame
+
+[[case]]
+screen = "neg_r2_quote_readme_onb.txt"
+width = 100
+expect = "idle"
+# N1 shipped-text quote: the shipped README onboarding anchors with no wizard frame
+
+[[case]]
+screen = "neg_r3_cat_apikey_screen_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of the API-key onboarding screen above the composer
+
+[[case]]
+screen = "neg_r3_cat_apikey_screen_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of the API-key onboarding screen above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_cat_apikey_screen_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of the API-key onboarding screen above the composer
+
+[[case]]
+screen = "neg_r3_cat_apikey_screen_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of the API-key onboarding screen above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_cat_compaction_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of a compaction screen above the composer
+
+[[case]]
+screen = "neg_r3_cat_compaction_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of a compaction screen above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_cat_compaction_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of a compaction screen above the composer
+
+[[case]]
+screen = "neg_r3_cat_compaction_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of a compaction screen above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_cat_enlarge_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of the Enlarge-terminal page above the composer
+
+[[case]]
+screen = "neg_r3_cat_enlarge_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: cat of the Enlarge-terminal page above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_cat_enlarge_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of the Enlarge-terminal page above the composer
+
+[[case]]
+screen = "neg_r3_cat_enlarge_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: cat of the Enlarge-terminal page above the composer, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_detect_toml_new_rules_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: quote of the shipped detect.toml onboarding/enlarge/compaction rules
+
+[[case]]
+screen = "neg_r3_detect_toml_new_rules_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: quote of the shipped detect.toml onboarding/enlarge/compaction rules, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_detect_toml_new_rules_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: quote of the shipped detect.toml onboarding/enlarge/compaction rules
+
+[[case]]
+screen = "neg_r3_detect_toml_new_rules_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: quote of the shipped detect.toml onboarding/enlarge/compaction rules, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_grep_enlarge_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: grep output that is the Enlarge-terminal sentence alone on a line
+
+[[case]]
+screen = "neg_r3_grep_enlarge_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: grep output that is the Enlarge-terminal sentence alone on a line, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_grep_enlarge_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: grep output that is the Enlarge-terminal sentence alone on a line
+
+[[case]]
+screen = "neg_r3_grep_enlarge_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: grep output that is the Enlarge-terminal sentence alone on a line, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_prose_apikey_plus_approval_box_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: prose naming the Paste API key box followed by a quoted approval box
+
+[[case]]
+screen = "neg_r3_prose_apikey_plus_approval_box_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: prose naming the Paste API key box followed by a quoted approval box, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_prose_apikey_plus_approval_box_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: prose naming the Paste API key box followed by a quoted approval box
+
+[[case]]
+screen = "neg_r3_prose_apikey_plus_approval_box_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: prose naming the Paste API key box followed by a quoted approval box, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_readme_onb_plus_approval_box_w100.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: shipped README onboarding anchors followed by a quoted approval box
+
+[[case]]
+screen = "neg_r3_readme_onb_plus_approval_box_w100_nb.txt"
+width = 100
+expect = "idle"
+# r3 shipped-text quote: shipped README onboarding anchors followed by a quoted approval box, no blank line before the composer
+
+[[case]]
+screen = "neg_r3_readme_onb_plus_approval_box_w80.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: shipped README onboarding anchors followed by a quoted approval box
+
+[[case]]
+screen = "neg_r3_readme_onb_plus_approval_box_w80_nb.txt"
+width = 80
+expect = "idle"
+# r3 shipped-text quote: shipped README onboarding anchors followed by a quoted approval box, no blank line before the composer
+
+[[case]]
+screen = "v313_question_fruit3_w100.txt"
+width = 100
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w120.txt"
+width = 120
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w160.txt"
+width = 160
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w20.txt"
+width = 20
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w200.txt"
+width = 200
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w24.txt"
+width = 24
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w30.txt"
+width = 30
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w40.txt"
+width = 40
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w50.txt"
+width = 50
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w60.txt"
+width = 60
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit3_w80.txt"
+width = 80
+expect = "blocked"
+# live question dialog, 3 options, title `Pick the fruit` (stub [[ASK3]])
+
+[[case]]
+screen = "v313_question_fruit4_w100.txt"
+width = 100
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w120.txt"
+width = 120
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w160.txt"
+width = 160
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w20.txt"
+width = 20
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w200.txt"
+width = 200
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w24.txt"
+width = 24
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w30.txt"
+width = 30
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w40.txt"
+width = 40
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w50.txt"
+width = 50
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w60.txt"
+width = 60
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "v313_question_fruit4_w80.txt"
+width = 80
+expect = "blocked"
+# live question dialog, 4 options, title `Pick the fruit` (stub [[ASK4]])
+
+[[case]]
+screen = "neg_spinner_quote_cat_generating_i0_w80.txt"
+width = 80
+expect = "idle"
+# quote: cat of a generating screen (spinner line, composer, footer) above the live composer, indent 0
+
+[[case]]
+screen = "neg_spinner_quote_cat_generating_i2_w80.txt"
+width = 80
+expect = "idle"
+# quote: cat of a generating screen (spinner line, composer, footer) above the live composer, indent 2
+
+[[case]]
+screen = "neg_spinner_quote_cat_generating_i0_w100.txt"
+width = 100
+expect = "idle"
+# quote: cat of a generating screen (spinner line, composer, footer) above the live composer, indent 0
+
+[[case]]
+screen = "neg_spinner_quote_cat_generating_i2_w100.txt"
+width = 100
+expect = "idle"
+# quote: cat of a generating screen (spinner line, composer, footer) above the live composer, indent 2
+
+[[case]]
+screen = "neg_spinner_quote_prose_spinner_i0_w80.txt"
+width = 80
+expect = "idle"
+# quote: prose line quoting the spinner status text above the live composer, indent 0
+
+[[case]]
+screen = "neg_spinner_quote_prose_spinner_i2_w80.txt"
+width = 80
+expect = "idle"
+# quote: prose line quoting the spinner status text above the live composer, indent 2
+
+[[case]]
+screen = "neg_spinner_quote_prose_spinner_i0_w100.txt"
+width = 100
+expect = "idle"
+# quote: prose line quoting the spinner status text above the live composer, indent 0
+
+[[case]]
+screen = "neg_spinner_quote_prose_spinner_i2_w100.txt"
+width = 100
+expect = "idle"
+# quote: prose line quoting the spinner status text above the live composer, indent 2
+
+[[case]]
+screen = "neg_idle_lastline_gen_i2_w80.txt"
+width = 80
+expect = "idle"
+# quote: indent-2 spinner-shaped Generating status text as the last transcript line above the live composer
+
+[[case]]
+screen = "neg_idle_lastline_gen_i2_w100.txt"
+width = 100
+expect = "idle"
+# quote: indent-2 spinner-shaped Generating status text as the last transcript line above the live composer
+
+[[case]]
+screen = "neg_idle_lastline_run_i2_w80.txt"
+width = 80
+expect = "idle"
+# quote: indent-2 spinner-shaped Running command status text as the last transcript line above the live composer
+
+[[case]]
+screen = "neg_idle_lastline_run_i2_w100.txt"
+width = 100
+expect = "idle"
+# quote: indent-2 spinner-shaped Running command status text as the last transcript line above the live composer
+
+[[case]]
+screen = "neg_idle_lastline_think_i2_w80.txt"
+width = 80
+expect = "idle"
+# quote: indent-2 spinner-shaped Thinking status text as the last transcript line above the live composer
+
+[[case]]
+screen = "neg_idle_lastline_think_i2_w100.txt"
+width = 100
+expect = "idle"
+# quote: indent-2 spinner-shaped Thinking status text as the last transcript line above the live composer

@@ -1,0 +1,28 @@
+[2J[H
+                            
+
+
+    ⡠⣒⠄  ⡔⢄⠔⡄                 
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣                 
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆                 
+  Welcome to Mistral Vibe     
+  Choose your sign in method  
+                              
+                              
+  ┌──────────── Recommended ─┐
+> │ Launch browser           │
+  │ Sign in to Mistral AI Stud
+  └──────────────────────────┘
+                              
+  or                          
+                              
+  ┌──────────────────────────┐
+  │ Use an API key           │
+  │ Already have a key? Paste 
+  └──────────────────────────┘
+                              
+                              
+  ↑↓/jk navigate  Enter sele  
+                              
+                              
+                              

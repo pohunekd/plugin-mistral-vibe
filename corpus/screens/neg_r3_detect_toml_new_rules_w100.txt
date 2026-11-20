@@ -1,0 +1,50 @@
+[2J[H  region = "whole_recent"
+  visible_blocker = true
+  # Onboarding API-key step: the `chat.mistr` help URL above the contiguous
+  # `┌─ Paste API key …┐` / `│ …` / `└…┘` input box, then at most the `Learn
+  # more` and `https://github.com` footer lines before the end.
+  regex = '(?s)chat\.mistr.*?\x{250c}\x{2500} Paste API key[ \x{2500}]*\x{2510}\n[^\n]*\x{2502}[^\n]
+*\n[ \t]*\x{2514}\x{2500}+\x{2518}(?:\n(?:[ \t][^\n]*)?){0,8}\z'
+
+  [[rules]]
+  id = "working_spinner"
+  state = "working"
+  priority = 700
+  region = "bottom_non_empty_lines(16)"
+  line_regex = '[\x{2800}-\x{28FF}]\s+(Generating|Thinking|Initializing|Retrying|Running command|Loa
+ding skills|User input required)…'
+
+  [[rules]]
+  id = "working_compaction"
+  state = "working"
+  priority = 690
+  region = "whole_recent"
+  # The transcript line's shape: a spinner cell (`■` running, `□` queued)
+  # at the start of the line, then `Compacting` as the first word, its wrapped
+  # continuation, only blank or spinner lines, and then the idle composer
+  # frame up to the `ctx` footer at the screen end. A quote of the line with
+  # other text before the composer matches no rule; the finished
+  # `Compacted`/`failed` lines never match.
+  regex = '(?m)^[ \t]*[\x{25a0}\x{25a1}] Compacting[^\n]*\n(?:(?:conversation|history\.\.\.|conversa
+tion history\.\.\.)[ \t]*\n){0,2}(?:[ \t]*\n|[ \t]*[\x{2800}-\x{28ff}][^\n]*\n){0,20}?\x{2500}+ [^\x
+{2500}\n]* \x{2500}+\n>[^\n]*\n\n*\x{2500}+\n[^\n]*ctx[^\n]*(?:\n[^\n]*)?\z'
+
+  [[rules]]
+  id = "enlarge_terminal"
+  state = "blocked"
+  priority = 920
+  region = "whole_recent"
+  visible_blocker = true
+  # Small-terminal wait page: the whole visible screen is the single row
+  # `Enlarge terminal to continue`. The user must resize the terminal rather
+  # than answer, so it reads blocked (visible blocker).
+  regex = '\A\s*Enlarge terminal to continue\s*\z'
+
+  [[rules]]
+
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w100                                        ctx        0/30k

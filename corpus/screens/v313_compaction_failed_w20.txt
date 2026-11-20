@@ -1,0 +1,30 @@
+[2J[H> [[LONG]] go       
+─────────────────── 
+  quick brown fox   
+  jumps over the    
+  lazy dog, entry   
+  160.              
+                    
+                    
+> [[PLAIN]] next    
+─────────────────── 
+                    
+✕ Context           
+compaction failed   
+                    
+✕ Error: compaction 
+  summary and       
+  required          
+  continuation      
+  context cannot    
+  fit the           
+  configured token  
+  threshold         
+
+                    
+───── accept edits ─
+>                
+
+
+────────────────────
+…/cmpf-w20 ⧉   ctx █

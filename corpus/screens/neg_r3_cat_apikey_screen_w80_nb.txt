@@ -1,0 +1,28 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  > cat corpus/screens/v313_onb_apikey_w100.txt
+
+                     ⡠⣒⠄  ⡔⢄⠔⡄
+                    ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣
+                     ⠉⠒⠣⠤⠵⠤⠬⠮⠆
+                   Get your Mistral API key
+                   Visit Mistral Vibe to generate or copy your Vibe key
+                   https://chat.mistral.ai/code/extensions?focus=key
+                   ┌─ Paste API key ────────────────────────────────────────────
+──────┐
+                   │                                                            
+      │
+                   └────────────────────────────────────────────────────────────
+──────┘
+                   Learn more about Vibe configurations
+                   https://github.com/mistralai/mistral-vibe?tab=readme-ov-file#
+configuration
+───────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w80                     ctx        0/30k

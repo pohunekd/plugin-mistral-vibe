@@ -1,0 +1,30 @@
+[2J[H▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+╭──────────────────╮
+│                  │
+│     Malicio      │
+│       us         │
+│     configs      │
+│       can  ▁     │
+│     modify       │
+│       AI         │
+│     behavio      │
+│       r,         │
+│     exfiltr      │
+│       ate        │
+│     ────────     │
+│     Trust folder o
+│     ────────     │
+│                  │
+│     /work/r-     │
+│     new/work     │
+│     /r-new/w     │
+│     ork/r/wo     │
+│     rk/trust     │
+│     r-w20/su     │
+│        b         │
+│      ↳ git       │
+│     reposito     │
+│       ry:        │
+│                  │
+╰──────────────────╯
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

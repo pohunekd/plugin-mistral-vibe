@@ -1,0 +1,30 @@
+[2J[H
+⢔⡢⡀    ⡔⢄⠔⡄   Mistral Vibe v3.1.2
+ ⢸⠸⣀⡔⢉⠱⣃⡐⣔⡣   stub[off]
+  ⠉⠒⠣⠤⠵⠤⠬⠮⠆   Type /help for more information
+
+
+
+> [[BASH]] go
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+■ Running touch approved.txt
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+
+⠖  Running command… (1s Esc/Ctrl+C to interrupt)
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Permission for the file_system.bash tool (touch *)                                               │
+│ touch approved.txt                                                                               │
+│                                                                                                  │
+│   1. Allow once                                                                                  │
+│   2. Allow for remainder of this session                                                         │
+│   3. Always allow                                                                                │
+│   4. Deny                                                                                        │
+│                                                                                                  │
+│ ↑↓/jk navigate  Enter select  Esc reject                                                         │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+/work/r-old/appr-w100                                       ctx ▏      15/30k

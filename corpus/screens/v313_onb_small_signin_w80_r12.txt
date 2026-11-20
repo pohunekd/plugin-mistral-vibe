@@ -1,0 +1,12 @@
+[2J[H       Welcome to Mistral Vibe                       
+       ┌──────────────────────────────────────────────────── Recommended ─┐
+     > │ Launch browser                                                   │
+       │ Sign in to Mistral AI Studio and finish setup automatically.     │
+       └──────────────────────────────────────────────────────────────────┘
+                                                                    
+       or                                                            
+                                                       
+       ┌──────────────────────────────────────────────────────────────────┐
+       │ Use an API key                                                   │
+       │ Already have a key? Paste it manually instead.                   │
+       └──────────────────────────────────────────────────────────────────┘

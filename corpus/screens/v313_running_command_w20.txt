@@ -1,0 +1,30 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇
+
+Mistral Vibe v3.1.3
+stub[off]
+Type /help for more
+information
+
+
+                    
+                    
+                    
+                    
+                    
+
+
+
+
+
+
+⠋  Running command… 
+                 
+───── accept edits ─
+>          
+
+
+────────────────────
+…/runcmd-w20 ⧉ ctx  

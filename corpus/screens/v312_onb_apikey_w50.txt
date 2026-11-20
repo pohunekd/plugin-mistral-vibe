@@ -1,0 +1,28 @@
+[2J[H
+                                      
+
+
+                                        
+                                        
+   ⢠⢢    ⡠⡀⡠⡀                           
+   ⢸⢸⣀⡔⢉⢑⠇⠨⡠⢇                           
+   ⠈⠒⠒⠣⠤⠵⠭⠭⠯⠇                                   
+  Get your Mistral API key              
+  Visit Mistral Vibe to generate or copy your Vibe
+                                                  
+  https://chat.mistral.ai/code/extensions?focus=ke
+                                                  
+                                                  
+  ┌─ Paste API key ──────────────────────────────┐
+  │                                              │
+  └──────────────────────────────────────────────┘
+                                                  
+                                                  
+                                                  
+                                                  
+  Learn more about Vibe configurations            
+  https://github.com/mistralai/mistral-vibe?tab=re
+                                                  
+                                                  
+                                                  
+                                                  

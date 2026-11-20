@@ -1,0 +1,30 @@
+[2J[H> [[LONG]] go                                     
+───────────────────────────────────────────────── 
+  the quick brown fox jumps over the lazy dog,    
+  entry 148. Line 149: the quick brown fox        
+  jumps over the lazy dog, entry 149. Line 150:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 150. Line 151: the quick brown fox        
+  jumps over the lazy dog, entry 151. Line 152:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 152. Line 153: the quick brown fox        
+  jumps over the lazy dog, entry 153. Line 154:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 154. Line 155: the quick brown fox        
+  jumps over the lazy dog, entry 155. Line 156:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 156. Line 157: the quick brown fox        
+  jumps over the lazy dog, entry 157. Line 158:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 158. Line 159: the quick brown fox        
+  jumps over the lazy dog, entry 159. Line 160:   
+  the quick brown fox jumps over the lazy dog,    
+  entry 160.                                      
+
+                                           
+─────────────────────── stub[off] · accept edits ─
+>            
+
+
+──────────────────────────────────────────────────
+…/work/r-new/work/r-ne/work/long-w50 ⧉  ctx █ 100%

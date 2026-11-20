@@ -1,0 +1,30 @@
+[2J[HType /help for more     
+information             
+                        
+                        
+                       ▆
+> [[ASK4]] go           
+─────────────────────── 
+                        
+■ Asking Pick the fruit 
+         the stub       
+         should name?   
+                        
+ ⣄ User input required… 
+┌──────────────────────┐
+│ Pick the fruit the   │
+│ stub should name?    │
+│                      │
+│   1. Apple - fruit   │
+│ option               │
+│   2. Pear - fruit    │
+│ option               │
+│   3. Plum - fruit    │
+│ option               │
+│   4. Fig - fruit     │
+│ option               │
+│   5. Type your answe │
+│                      │
+│ ↑↓/jk navigate  Ente │
+└──────────────────────┘
+…/fruit4-w24 ⧉  ctx ▁ 0%

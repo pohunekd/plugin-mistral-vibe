@@ -1,0 +1,30 @@
+[2J[H    ⡠⣒⠄  ⡔⢄⠔⡄
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣       
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆
+  Launch browser
+  Your browser shoul
+                    
+  ┌────────────────┐
+> │   Open browser │
+  │   Failed to    │
+  │   start        │
+  │   browser      │
+  │   sign-in:     │
+  │   error        │
+  │   sending      │
+  │   request      │
+  │   for url      │
+  │   (https://c   │
+  │   onsole.mis   │
+  │   tral.ai/ap   │
+  │   i/vibe/sig…  │
+  └────────────────┘
+  ┌────────────────┐
+  │   Complete sign-
+  │   Waiting for au
+  └────────────────┘
+  ┌────────────────┐
+  │   Finished setup
+  │   Vibe will star
+  └────────────────┘
+  r retry  m enter A

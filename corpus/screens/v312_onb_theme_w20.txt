@@ -1,0 +1,28 @@
+[2J[H
+Select your preferre
+
+
+        solarized-da
+         textual-dar
+         tokyo-night
+╭──────────────────╮
+│            auto   
+╰──────────────────╯
+          ansi-light
+        atom-one-lig
+       catppuccin-la
+                    
+                    
+╭──── Preview ─────╮
+│                  │
+│   Heading        │
+│                ▆ │
+│   Bold,          │
+│   italic,        │
+│   and inline     │
+│   code.          │
+│                  │
+│   • Bullet       │
+│     point        │
+│   • Another      │
+╰──────────────────╯

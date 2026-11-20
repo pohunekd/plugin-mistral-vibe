@@ -1,0 +1,7 @@
+# Upstream lock of the Mistral Vibe runtime plugin.
+#
+# The upstream release the descriptor's `version_probe` range is verified
+# against. The descriptor's `min`/`below` range (`[min, below)`) contains
+# this lock (`min` is at most the lock); bump `below` past the next minor
+# when a fresh capture pins a newer release.
+3.1.3

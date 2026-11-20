@@ -1,0 +1,22 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+> show the trust rule
+  id = "trust_folder_dialog"
+  state = "blocked"
+  priority = 940
+  region = "whole_recent"
+  visible_blocker = true
+  gates = { all = [
+      { contains = "trust this fol" },
+      { contains = "1. trust" },
+      { contains = "↑↓/jk" },
+      { contains = "╭" },
+  ] }
+───────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/idle-w100                                        ctx        0/30k

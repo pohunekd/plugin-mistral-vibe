@@ -1,0 +1,2 @@
+# Corpus screens are raw terminal bytes (CR, ESC, CRLF); keep them byte-exact.
+corpus/screens/** -text

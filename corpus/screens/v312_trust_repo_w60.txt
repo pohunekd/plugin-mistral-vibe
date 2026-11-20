@@ -1,0 +1,30 @@
+[2J[H▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+╭──────────────────────────────────────────────────────────╮
+│                                                          │
+│        Malicious configs can modify AI behavior,         │
+│      exfiltrate data, run destructive commands, or       │
+│                silently alter your code.                 │
+│                                                          │
+│             Detected in repository context:              │
+│                       • AGENTS.md                        │
+│                                                          │
+│     ────────────────────────────────────────────────     │
+│               Trust folder or repository?                │
+│     ────────────────────────────────────────────────     │
+│                                                          │
+│     /work/r-old/trustr-w60/su     │
+│                            b                             │
+│                    ↳ git repository:                     │
+│      /work/r-old/trustr-w60       │
+│                                                          │
+│      1. Trust full repo    2. Trust folder    3. Don't tru
+│                                                          │
+│         ↑↓/jk scroll  ←→ navigate  Enter select          │
+│                                                          │
+│                Setting will be saved in:                 │
+│     /work/r-old/home/.vibe/trusted     │
+│                      _folders.toml                       │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
+                                                            
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

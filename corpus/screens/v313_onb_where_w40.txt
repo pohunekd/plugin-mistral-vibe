@@ -1,0 +1,28 @@
+[2J[H
+                                 
+
+
+    ⡠⣒⠄  ⡔⢄⠔⡄                      
+   ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣                      
+    ⠉⠒⠣⠤⠵⠤⠬⠮⠆                      
+  Launch browser                   
+  Where do you sign in?               
+                                   
+                                   
+  ┌────────────────────── Recommended ─┐
+> │ Mistral AI                         │
+  │ Sign in to Mistral AI Studio.      │
+  └────────────────────────────────────┘
+                                        
+  or                                    
+                                        
+  ┌────────────────────────────────────┐
+  │ Other                              │
+  │ Sign in to a Mistral-compatible depl
+  └────────────────────────────────────┘
+                                        
+                                        
+  ↑↓/jk navigate  Enter select  Esc ba  
+                                        
+                                        
+                                        

@@ -1,0 +1,28 @@
+[2J[H
+                                                                         
+
+
+                                                                           
+                                                                           
+                           ⢔⡢⡀    ⡔⢄⠔⡄                                     
+                            ⢸⠸⣀⡔⢉⠱⣃⡐⣔⡣                                     
+                             ⠉⠒⠣⠤⠵⠤⠬⠮⠆                                                   
+                           Get your Mistral API key                        
+                           Visit Mistral Vibe to generate or copy your Vibe key
+                                                                                               
+                           https://chat.mistral.ai/code/extensions?focus=key                   
+                                                                                               
+                                                                                               
+                           ┌─ Paste API key ──────────────────────────────────────────────────┐
+                           │                                                                  │
+                           └──────────────────────────────────────────────────────────────────┘
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                                               
+                           Learn more about Vibe configurations                                
+                           https://github.com/mistralai/mistral-vibe?tab=readme-ov-file#configuration
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                                               

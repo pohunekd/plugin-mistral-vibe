@@ -1,0 +1,30 @@
+[2J[H> [[LONG]] go           
+─────────────────────── 
+  over the lazy dog,    
+  entry 159. Line       
+  160: the quick        
+  brown fox jumps       
+  over the lazy dog,    
+  entry 160.            
+                        
+                        
+> [[PLAIN]] next        
+─────────────────────── 
+                        
+✕ Context compaction    
+failed                  
+                        
+✕ Error: compaction     
+  summary and required  
+  continuation context  
+  cannot fit the        
+  configured token      
+  threshold             
+
+                        
+── stub · accept edits ─
+>                
+
+
+────────────────────────
+…/cmpf-w24 ⧉  ctx █ 100%

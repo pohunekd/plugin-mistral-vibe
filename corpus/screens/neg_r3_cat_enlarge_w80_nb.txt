@@ -1,0 +1,14 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+  > cat corpus/screens/v313_onb_small_theme_w80_r8.txt
+
+                            Enlarge terminal to continue
+───────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w80                     ctx        0/30k

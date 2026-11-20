@@ -1,0 +1,17 @@
+[2J[H
+  ⡠⣒⠄  ⡠⡀⡠⡀   Mistral Vibe v3.1.3
+ ⢸⠸⣀⡔⢉⢑⠇⠨⡠⢇   stub[off]
+  ⠉⠒⠣⠤⠵⠭⠭⠯⠇   Type /help for more information
+
+> what does the vibe status line show while it works?
+
+  The status line reads:
+
+  ⠋  Generating… (0s Esc/Ctrl+C to interrupt)
+
+───────────────────────────────────────────────────── stub[off] · accept edits ─
+>
+
+
+────────────────────────────────────────────────────────────────────────────────
+/work/r-new/idle-w80                     ctx        0/30k

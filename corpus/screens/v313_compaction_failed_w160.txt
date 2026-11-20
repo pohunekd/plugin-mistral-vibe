@@ -1,0 +1,30 @@
+[2J[H> [[LONG]] go                                                                                                                                                   
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+  fox jumps over the lazy dog, entry 134. Line 135: the quick brown fox jumps over the lazy dog, entry 135. Line 136: the quick brown fox jumps over the lazy   
+  dog, entry 136. Line 137: the quick brown fox jumps over the lazy dog, entry 137. Line 138: the quick brown fox jumps over the lazy dog, entry 138. Line      
+  139: the quick brown fox jumps over the lazy dog, entry 139. Line 140: the quick brown fox jumps over the lazy dog, entry 140. Line 141: the quick brown      
+  fox jumps over the lazy dog, entry 141. Line 142: the quick brown fox jumps over the lazy dog, entry 142. Line 143: the quick brown fox jumps over the lazy   
+  dog, entry 143. Line 144: the quick brown fox jumps over the lazy dog, entry 144. Line 145: the quick brown fox jumps over the lazy dog, entry 145. Line      
+  146: the quick brown fox jumps over the lazy dog, entry 146. Line 147: the quick brown fox jumps over the lazy dog, entry 147. Line 148: the quick brown      
+  fox jumps over the lazy dog, entry 148. Line 149: the quick brown fox jumps over the lazy dog, entry 149. Line 150: the quick brown fox jumps over the lazy   
+  dog, entry 150. Line 151: the quick brown fox jumps over the lazy dog, entry 151. Line 152: the quick brown fox jumps over the lazy dog, entry 152. Line      
+  153: the quick brown fox jumps over the lazy dog, entry 153. Line 154: the quick brown fox jumps over the lazy dog, entry 154. Line 155: the quick brown      
+  fox jumps over the lazy dog, entry 155. Line 156: the quick brown fox jumps over the lazy dog, entry 156. Line 157: the quick brown fox jumps over the lazy   
+  dog, entry 157. Line 158: the quick brown fox jumps over the lazy dog, entry 158. Line 159: the quick brown fox jumps over the lazy dog, entry 159. Line      
+  160: the quick brown fox jumps over the lazy dog, entry 160.                                                                                                  
+                                                                                                                                                                
+                                                                                                                                                                
+> [[PLAIN]] next                                                                                                                                               ▆
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+                                                                                                                                                                
+✕ Context compaction failed                                                                                                                                     
+                                                                                                                                                                
+✕ Error: compaction summary and required continuation context cannot fit the configured token threshold                                                         
+
+                                                                                             
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stub[off] · accept edits ─
+>                
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+/work/r-new/cmpf-w160                                                                                                ctx ██████ 30.2k/30k

@@ -1,0 +1,30 @@
+[2J[H▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+╭──────────────────────╮
+│                      │
+│      Malicious       │
+│     configs can      │
+│      modify AI       │
+│      behavior,       │
+│     exfiltrate       │
+│      data, run       │
+│     destructive▂     │
+│      commands,       │
+│     or silently      │
+│     alter your       │
+│     ────────────     │
+│     Trust this folder?
+│     ────────────     │
+│                      │
+│     /work/r-new/     │
+│     work/r-new/w     │
+│     ork/r/work/t     │
+│      rustf-w24       │
+│                      │
+│      1. Trust folder 
+│                      │
+│     ↑↓/jk scroll  ←→ n
+│                      │
+│     Setting will     │
+│                      │
+╰──────────────────────╯
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

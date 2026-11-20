@@ -1,0 +1,30 @@
+[2J[H                        
+  ⡠⣒⠄  ⡔⢄⠔⡄             
+ ⢸⠸⣀⡔⢉⠱⣃⡢⣂⡣             
+  ⠉⠒⠣⠤⠵⠤⠬⠮⠆             
+                        
+Mistral Vibe v3.1.3     
+stub[off]               
+Type /help for more     
+information             
+                        
+                        
+                        
+> [[PLAIN]] one         
+────────────────────────
+                        
+  Plain stub answer.    
+                        
+■ Compacting            
+conversation history... 
+                        
+                        
+                        
+                        
+                        
+── stub · accept edits ─
+>               
+
+
+────────────────────────
+…/cmp-w24 ⧉     ctx ▁ 0%

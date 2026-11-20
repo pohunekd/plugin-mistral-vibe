@@ -1,0 +1,51 @@
+schema = 1
+id = "pohunek.runtime.vibe"
+version = "0.1.0"
+runtime_api = 1
+requires = [
+    "launch-env-v1",
+    "placement-v1",
+    "checkout-trust-args-v1",
+    "input-refuse-while-blocked-v1",
+]
+
+[runtime]
+id = "vibe"
+name = "Mistral Vibe"
+program = "vibe"
+args = []
+detect_manifest = "detect.toml"
+prompt_arg = false
+trusted_checkout_args = ["--trust"]
+trusted_checkout_paths = ["AGENTS.md", ".agents", ".vibe"]
+
+[runtime.version_probe]
+parser = "semver-line-v1"
+line = "vibe {version}"
+args = ["--version"]
+min = "3.1.2"
+below = "3.2.0"
+
+[input]
+bracketed_paste = true
+submit_delay_ms = 150
+text_policy = "unrestricted"
+refuse_while_blocked = true
+ready = "screen_idle"
+startup_grace_ms = 20000
+
+[resume]
+supported = false
+
+[launch_env]
+VIBE_ENABLE_UPDATE_CHECKS = "false"
+
+[placement]
+mode = "in_process"
+
+[config_home]
+env = "VIBE_HOME"
+default = ".vibe"
+
+[native_reference]
+strategy = "none"
