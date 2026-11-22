@@ -10,7 +10,16 @@ Pohunek plugin for the Mistral Vibe upstream (detection-only, v0.1.0).
 | Upstream | Mistral Vibe release pinned in `compat/RELEASE` |
 | Status | **detection-only**: screen + program-status detection, no resume |
 
-Install by id (after admission): `pohunek plugin install pohunek.runtime.vibe`.
+## Install
+
+```bash
+pohunek plugin install pohunek.runtime.vibe
+```
+
+The install is a two-step review: the command above runs a dry run and prints
+what the package declares together with the resolved `<package-id>@<version>`;
+repeat the printed command with `--yes` to install it from the official plugin
+index. Vibe 0.1.0 is admitted in the official plugin index.
 
 ## Scope of v0.1.0
 
